@@ -1,0 +1,7 @@
+{
+  "publish": {
+    "PACKAGE": "jq",
+    "GH_USER": "jc21-rpm",
+    "VERSION": "1.8.1"
+  }
+}
