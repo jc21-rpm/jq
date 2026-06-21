@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:          jq
-Version:       1.8.1
+Version:       1.8.2
 Release:       1%{?dist}
 Summary:       Command-line JSON processor
 License:       MIT and ASL 2.0 and CC-BY and GPLv3
@@ -71,5 +71,8 @@ rm -rf %{buildroot}
 %{_libdir}/pkgconfig/libjq.pc
 
 %changelog
+* Sun Jun 21 2026 Jamie Curnow <jc@jc21.com> - 1.8.2-1
+- https://github.com/jqlang/jq/releases/tag/jq-1.8.2
+
 * Thu Jan 15 2026 Jamie Curnow <jc@jc21.com> - 1.8.1-1
 - https://github.com/jqlang/jq/releases/tag/jq-1.8.1
